@@ -31,6 +31,8 @@
 ```
 
 3.制品库模拟
+
+制品库统一使用NFS进行模拟，所有节点均挂载NFS共享目录。
 ```
 [www@linux-node1 ~]$ mkdir /data/pkg/devops-demo
 ```
